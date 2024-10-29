@@ -22,13 +22,34 @@ header {
 }
 .cabeca {
     margin: auto;
-    max-width: 800px;
+    max-width: 1050px;
     min-width: none;
+    height: 140px;
 
 }
 .logo img {
     width: 250px;
+    padding: 0 10px;
+    margin: 10px;
 }
 .cabeca nav {
     float: right;
+    
+}
+.cabeca nav > a {
+    color: var(--beje);
+    text-decoration: none;
+    font-family: 'Roboto';
+    padding: 20px;
+    font-weight: bold;
+}
+.banner {
+    display: flex;
+    background-color: #594539;
+    background: center / contain no-repeat url("imagens/banner.jpg"),
+            #eee 35% url("imagens/banner.jpg");
+}
+.banner h2{
+    width: 200px;
+
 }
