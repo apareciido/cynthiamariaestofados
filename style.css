@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 @font-face {
     font-family: 'Arpona';
@@ -24,7 +23,7 @@ header {
     margin: auto;
     max-width: 1050px;
     min-width: none;
-    height: 140px;
+    height: 160px;
 
 }
 .logo img {
@@ -33,8 +32,9 @@ header {
     margin: 10px;
 }
 .cabeca nav {
+    display: block;
     float: right;
-    
+    background-color: var(--verde-escuro)
 }
 .cabeca nav > a {
     color: var(--beje);
@@ -62,52 +62,51 @@ header {
     font-size: 2em;
     padding-top: 20px;
 }
-.prod {
+#produto {
     text-align: center;
     font-family: Arpona;
     font-weight: normal;
     color: var(--verde-escuro);
-    margin: 15px;
+    margin: 50px;
 }
 .destaques {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 320px;
+    justify-content: space-around;
+}
+.produtos {
+    display: flex;
+    background-color: #4e594c;
+    width: 300px;
+    height: 400px;
+    margin: 20px 0;    
+    border-radius: 10px;
+}
+.produtos img {
+    align-items: flex-start;
+    width: 280px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 30px;
+}
+#sobre-nos {
+    max-width: 1000px;
+    min-width: none;
+    background-color: whitesmoke;
     margin: auto;
 }
-.destaques img {
-    width: 300px;
-    padding: 20px;
-    border: solid;
-    display: flex;
+#sobre-nos > h2 {
+    margin: auto;
+    font-size: 75px;
+    text-align: center;
+    font-family: Arpona;
+    font-weight: normal;
+    color: var(--verde-escuro);
+    margin: 50px;
 }
-.produto1 {
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-}
-.produto2 {
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-}
-.produto3 {
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-}
-.produto4 {
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-}
-.produto5 {
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-}
-.produto6 {
-    width: 150px;
-    height: 150px;
-    margin: 20px;
-}
+#sobre-nos div {
 
+}
