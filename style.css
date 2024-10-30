@@ -19,29 +19,8 @@
 header {
     background-color: var(--verde-escuro);
 }
-.cabeca {
-    margin: auto;
-    max-width: 1050px;
-    min-width: none;
-    height: 160px;
-
-}
-.logo img {
-    width: 250px;
-    padding: 0 10px;
-    margin: 10px;
-}
-.cabeca nav {
-    display: block;
-    float: right;
-    background-color: var(--verde-escuro)
-}
-.cabeca nav > a {
+.navbar-toggler-icon {
     color: var(--beje);
-    text-decoration: none;
-    font-family: 'Roboto';
-    padding: 20px;
-    font-weight: bold;
 }
 .banner {
     background: url('imagens/banner.jpg') no-repeat center center/cover;
@@ -62,6 +41,7 @@ header {
     font-size: 2em;
     padding-top: 20px;
 }
+
 #produto {
     text-align: center;
     font-family: Arpona;
@@ -93,6 +73,9 @@ header {
     padding: 10px;
     border-radius: 30px;
 }
+.produtos h2 {
+
+}
 #sobre-nos {
     max-width: 1000px;
     min-width: none;
@@ -107,7 +90,4 @@ header {
     font-weight: normal;
     color: var(--verde-escuro);
     margin: 50px;
-}
-#sobre-nos div {
-
 }
