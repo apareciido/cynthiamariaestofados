@@ -32,68 +32,63 @@ header {
     position: relative;
     padding: 0 2rem;
 }
-.navbar {
+.logo img {
+    width: 250px;
+}
+nav {
+    background-color: var(--verde-escuro);
+    display: flex;
+}
+nav ul {
     width: 100%;
-    height: 120px;
-    max-width: 1200px;
-    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li {
+    height: 50px;
+    
+}
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto';
     display: flex;
     align-items: center;
-    justify-content: space-between;
-}
-.navbar .links{
-    display: flex;
-    gap: 2rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-.navbar .toggle_btn {
     color: var(--beje);
-    font-size: 1.5rem;
-    cursor: pointer;
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.13);
     display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
-
-/* DROP MENU */
-
-.dropdown_menu {
-    display: none;
-    position: absolute;
-    right: 2rem;
-    height: 0;
-    top: 80px;
-    width: 300px;
-    background:var(--verde-claro);
-    backdrop-filter: blur(15px);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275)
+.sidebar li {
+    width: 100%;
 }
-
-.dropdown_menu.open{
-    height: 240px;
+.sidebar a {
+    width: 100%;
 }
-.dropdown_menu li {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-/* RESPONSIVE */
-
-@media(max-width:768px){
-    .navbar .links{
+@media(max-width: 800px){
+    .hideOnMobile {
         display: none;
     }
-    .navbar .toggle_btn {
-        display: block;
-    }
-
-    .dropdown_menu {
-        display: block;
+}
+@media(min-width: 800px){
+    .btn {
+        display: none;
     }
 }
 
@@ -147,9 +142,6 @@ header {
     height: 300px;
     padding: 10px;
     border-radius: 30px;
-}
-.produtos h2 {
-
 }
 #sobre-nos {
     max-width: 1000px;
