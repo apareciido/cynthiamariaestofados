@@ -133,12 +133,20 @@ nav a {
 }
 .produtos {
     display: flex;
+    flex-direction: column;
     background-color: whitesmoke;
     border: solid 1px;
     width: 300px;
     height: 400px;
     margin: 20px 0;    
     border-radius: 30px;
+    transition: linear 250ms;
+}
+.produtos h2 {
+    text-align: center;
+    font-family: Arpona;
+    color: var(--verde-escuro);
+    padding: 10px;
 }
 .produtos img {
     align-items: center;
@@ -146,6 +154,10 @@ nav a {
     height: 300px;
     padding: 10px;
     border-radius: 30px;
+}
+.produtos:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.226);
+    margin-bottom: 10px;
 }
 #sobre-nos {
     max-width: 1000px;
