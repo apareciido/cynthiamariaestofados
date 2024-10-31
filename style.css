@@ -38,6 +38,8 @@ header {
 nav {
     background-color: var(--verde-escuro);
     display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 nav ul {
     width: 100%;
