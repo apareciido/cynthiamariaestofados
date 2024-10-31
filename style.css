@@ -69,8 +69,9 @@ nav a {
     height: 100vh;
     width: 250px;
     z-index: 999;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1);
+    /*backdrop-filter: blur(10px);
+    /*background-color: rgba(255, 255, 255, 0.1);*/
+    background-color: var(--verde-escuro);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.13);
     display: none;
     flex-direction: column;
@@ -86,6 +87,7 @@ nav a {
 @media(max-width: 800px){
     .hideOnMobile {
         display: none;
+        transition: linear 500ms;
     }
 }
 @media(min-width: 800px){
