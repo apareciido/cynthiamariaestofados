@@ -142,7 +142,7 @@ header {
     border-radius: 30px;
 }
 .produtos img {
-    align-items: flex-start;
+    align-items: center;
     width: 280px;
     height: 300px;
     padding: 10px;
