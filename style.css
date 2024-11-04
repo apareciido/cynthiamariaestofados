@@ -127,7 +127,6 @@ nav a {
     height: 400px;
     margin: 20px 0;    
     border-radius: 30px;
-    transition: linear 250ms;
 }
 .produtos h2 {
     text-align: center;
@@ -197,11 +196,42 @@ nav a {
     padding: 0 30px;
     color: white;
 }
+#stores {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: 'Arpona';
+    font-weight: 300;
+    font-size: 35px;
+    padding: 10px;
+}
+.box {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.lojas {
+    display: flex;
+    margin: auto;
+    max-width: 1000px;
+}
+.content-box {
+    display: flex;
+    
+}
 
+footer {
+    background-color: var(--verde-escuro);
+    height: 300px;
+    margin-top: 50px;
+}
+.button {
+    background-color: #18c908;
+    padding: 15px;
+    border-radius: 110px;
+    font-size: 20px;
+}
 @media(max-width: 800px){
     .hideOnMobile {
         display: none;
-        transition: linear 500ms;
     }
     .banner {
         display: none;
