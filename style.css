@@ -169,9 +169,35 @@ nav a {
     font-weight: normal;
     padding: 30px;
 }
+.paragrafo p {
+    text-align: justify;
+}
 #banner_mobile img {
     width: 100%;
 }
+.qualidade {
+    max-width: 1000px;
+    margin: auto;
+    background-color: var(--verde-claro);
+    height: 300px;
+    border-radius: 10px;
+}
+.qualidade h2 {
+    font-size: 26px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Arpona';
+    font-weight: 300;
+}
+.qualidade p {
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 30px;
+    color: white;
+}
+
 @media(max-width: 800px){
     .hideOnMobile {
         display: none;
