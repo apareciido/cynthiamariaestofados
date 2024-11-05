@@ -178,7 +178,6 @@ nav a {
     max-width: 1000px;
     margin: auto;
     background-color: var(--verde-claro);
-    height: 300px;
     border-radius: 10px;
 }
 .qualidade h2 {
@@ -194,6 +193,7 @@ nav a {
     font-size: 20px;
     text-align: justify;
     padding: 0 30px;
+    padding-bottom: 30px;
     color: white;
 }
 #stores {
@@ -210,6 +210,8 @@ nav a {
 }
 .lojas {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     margin: auto;
     max-width: 1000px;
     padding: 30px;
@@ -220,7 +222,7 @@ nav a {
     margin: auto;
     align-items: center;
     display: flex;
-
+    margin: 20px;
 }
 .content-box div {
     display: flex;
