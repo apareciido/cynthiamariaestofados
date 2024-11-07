@@ -222,7 +222,7 @@ nav a {
     margin: auto;
     align-items: center;
     display: flex;
-    margin: 20px;
+    padding: 30px;
 }
 .content-box div {
     display: flex;
