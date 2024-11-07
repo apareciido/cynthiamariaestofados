@@ -6,7 +6,12 @@ function showSidebar(){
 function hideSidebar(){
     const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
-
-    else hideSidebar(){}
 }
 /* header */
+
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+    }
+}
