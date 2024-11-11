@@ -189,6 +189,15 @@ nav a {
 #banner_mobile img {
     width: 100%;
 }
+.banner-q {
+    margin: 20px auto;
+    max-width: 1000px;
+    min-width: 320px;
+
+    & img {
+        width: 100%;
+    }
+}
 .qualidade {
     background-image: url('imagens/background.jpg');
     background-position: center;
@@ -221,6 +230,16 @@ nav a {
     margin: auto;
     text-align: center;
     align-items: center;
+    padding: 25px;
+
+    & a {
+        background-color: #18c908;
+        margin: 20px;
+        color: white;
+        padding: 20px;
+        border-radius: 30px;
+        font-size: 30px;
+    }
 }
 .graca h2 {
     font-family: 'Arpona';
@@ -248,35 +267,13 @@ nav a {
 }
 .box {
     background-color: whitesmoke;
-    
+    margin: auto;
 }
 .lojas {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: auto;
-    max-width: 1000px;
-    padding: 30px;
 }
 .content-box {
-    width: 300px;
-    height: 400px;
-    margin: auto;
-    align-items: center;
-    display: flex;
-    padding: 30px;
-}
-.content-box div {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-}
-.content-box img {
-    width: 300px;
-}
 
+}
 footer {
     background-color: var(--verde-escuro);
     height: 300px;
