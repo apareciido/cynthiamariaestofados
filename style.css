@@ -216,6 +216,9 @@ nav a {
     color: white;
 }
 .graca {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
     text-align: center;
     align-items: center;
 }
@@ -231,7 +234,7 @@ nav a {
     font-size: 20px;
 }
 .sofa-graça img {
-    width: 100vh;
+    width: 100%;
     margin: auto;
 }
 #stores {
