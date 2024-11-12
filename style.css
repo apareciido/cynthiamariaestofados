@@ -138,8 +138,14 @@ nav a {
     background-color: whitesmoke;
     width: 300px;
     height: 400px;
-    margin: 20px 0;    
+    margin: 20px;    
     border-radius: 30px;
+
+    & .more {
+        text-align: center;
+        font-family: 'Arpona';
+        display: none;
+    }
 }
 .produtos h2 {
     text-align: center;
@@ -152,13 +158,18 @@ nav a {
     width: 280px;
     height: 300px;
     padding: 10px;
-    border-radius: 30px;
 }
 .produtos:hover {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.226);
     margin-bottom: 10px;
     transition: linear .3s;
     transform: scale(1.1);
+    
+    & .more {
+        text-align: center;
+        font-family: 'Arpona';
+        display: block;
+    }
 }
 #sobre-nos {
     width: 100%;
@@ -256,6 +267,9 @@ nav a {
     width: 100%;
     margin: auto;
 }
+.buy:hover {
+    background-color: #0d6805;
+}
 #stores {
     background-color: whitesmoke;
     text-align: center;
@@ -271,17 +285,23 @@ nav a {
 .lojas {
     max-width: 1000px;
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     align-content: space-between;
 
 }
 .content-box {
+    font-family: 'Arpona';
+    font-weight: lighter;
     margin: auto;
     display: flex;
     flex-direction: column;
     padding: 10px;
     text-align: center;
 
+}
+.content-box h2, p {
+    padding: 10px;
 }
 footer {
     background-color: var(--verde-escuro);
@@ -325,6 +345,9 @@ footer {
     .qualidade p {
         min-width: 200px;
     }
+    #p1, #p2, #p3, #p4 {
+        display: none;
+    }
 }
 @media(min-width: 800px){
     .btn {
@@ -333,4 +356,7 @@ footer {
     #banner_mobile {
         display: none;
     }
+    
 }
+/* PÁGINA DE PRODUTOS */
+
