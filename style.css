@@ -283,9 +283,8 @@ nav a {
     background-color: whitesmoke;
 }
 .lojas {
-    max-width: 1000px;
     display: flex;
-    flex-wrap: wrap;
+    max-width: 1000px;
     margin: auto;
     align-content: space-between;
 
@@ -305,8 +304,32 @@ nav a {
 }
 footer {
     background-color: var(--verde-escuro);
+    display: flex;
+    margin: auto;
     height: 300px;
-    margin-top: 50px;
+    font-family: 'Roboto';
+    color: white;
+    padding: 30px;
+
+    & .rodape {
+        display: flex;
+        margin: auto;
+        max-width: 1500px;
+    }
+
+    & h2, p {
+        padding: 10px;
+        width: 300px;
+        margin: auto;
+    }
+
+    & a {
+        color: white;
+        padding: 10px;
+    }
+    & li {
+        padding: 10px 0;
+    }
 }
 .button {
     background-color: #18c908;
@@ -347,6 +370,12 @@ footer {
     }
     #p1, #p2, #p3, #p4 {
         display: none;
+    }
+    .lojas {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-content: space-between;
     }
 }
 @media(min-width: 800px){
