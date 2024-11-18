@@ -315,11 +315,13 @@ footer {
         display: flex;
         margin: auto;
         max-width: 1500px;
+        min-width: 320px;
     }
+    
 
     & h2, p {
         padding: 10px;
-        width: 300px;
+        max-width: 300px;
         margin: auto;
     }
 
