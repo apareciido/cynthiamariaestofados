@@ -160,16 +160,8 @@ nav a {
     padding: 10px;
 }
 .produtos:hover {
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.226);
     margin-bottom: 10px;
     transition: linear .3s;
-    transform: scale(1.1);
-    
-    & .more {
-        text-align: center;
-        font-family: 'Arpona';
-        display: block;
-    }
 }
 #sobre-nos {
     width: 100%;
@@ -321,7 +313,7 @@ footer {
 
     & h2, p {
         padding: 10px;
-        max-width: 300px;
+        max-width: 500px;
         margin: auto;
     }
 
@@ -331,6 +323,18 @@ footer {
     }
     & li {
         padding: 10px 0;
+    }
+}
+.cred {
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+
+    a {
+        font-weight: bold;
+        font-size: 18px;
     }
 }
 .button {
