@@ -513,5 +513,46 @@ footer {
     }
     
 }
-/* PÁGINA DE PRODUTOS */
+@media (max-width: 420px){
+    footer {
+        background-color: var(--verde-escuro);
+        height: 100vh;
+        font-family: 'Roboto';
+        color: white;
+        padding: 30px;
+    
+    
+        & .rodape {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            max-width: 1500px;
+            min-width: 300px;
+        }
+        
+    
+        & h2, p {
+            padding: 10px;
+            max-width: 500px;
+            margin: auto;
+        }
+    
+        & a {
+            color: white;
+            padding: 10px;
+        }
+        & li {
+            padding: 10px 0;
+        }
+    }
+}
+@media (max-width: 376px){
+    .logo img {
+        width: 90%;
+    }
+    .logo1 img {
+        width: 400px;
+    }
+}
 
+/* PÁGINA DE PRODUTOS */
