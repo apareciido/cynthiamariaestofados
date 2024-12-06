@@ -17,7 +17,7 @@ const leftArrow = document.querySelector(".arrow-left");
 const rightArrow = document.querySelector(".arrow-right");
 
 let currentIndex = 0;
-let time = 7000; //Tempo padrão para apresentação de slides automática
+let time = 5000; //Tempo padrão para apresentação de slides automática
 
 const defClass = (startPos, index) => {
   for (let i = startPos; i < imgs.length; i++) {
