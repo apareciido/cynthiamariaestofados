@@ -68,6 +68,12 @@ nav a {
     align-items: center;
     color: var(--beje);
 }
+nav a:hover {
+    background-color: var(--beje);
+    color: var(--verde-claro);
+    border-radius: 10px;
+    transition: 500ms ease;
+}
 .sidebar {
     position: fixed;
     top: 0;
@@ -91,7 +97,7 @@ nav a {
 
 .banner {
     background: url('imagens/banner2.jpg') no-repeat center center/cover;
-    height: 87vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;

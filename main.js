@@ -8,7 +8,6 @@ function hideSidebar(){
     sidebar.style.display = 'none'
     }
 /* header */
-window.alert('Site em Desenvilvimento!, Desconsiderar informações!')
 
 
 const imgs = document.querySelectorAll(".slider img");
